@@ -1,4 +1,4 @@
-use pyo3::{ffi, prelude::*, types::PySequence, AsPyPointer};
+use pyo3::prelude::*;
 
 fn main() {
     let gil = Python::acquire_gil();
